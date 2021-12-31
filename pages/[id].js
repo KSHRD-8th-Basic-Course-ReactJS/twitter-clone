@@ -62,13 +62,13 @@ function PostPage({ trendingResults, followResults, providers }) {
         <meta name="description" content={post?.text} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kimleang.cyou" />
+        <meta property="og:url" content="https://adoring-kepler-057aa3.netlify.app" />
         <meta property="og:title" content={`${post?.username} on Twitter: "${post?.text}"`} />
         <meta property="og:description" content={post?.text} />
         <meta property="og:image" content={post?.image} />
 
         <meta property="twitter:type" content="website" />
-        <meta property="twitter:url" content="https://kimleang.cyou" />
+        <meta property="twitter:url" content="https://adoring-kepler-057aa3.netlify.app" />
         <meta property="twitter:title" content={`${post?.username} on Twitter: "${post?.text}"`} />
         <meta property="twitter:description" content={post?.text} />
         <meta property="twitter:image" content={post?.image} />
